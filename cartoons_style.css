@@ -1,0 +1,98 @@
+.smallleft {
+  /*background-color: red;*/
+  width: 32%;
+  float: left;
+  /*height: 300px;*/
+  margin-bottom: 10px;
+
+}
+
+.smallright {
+  /*background-color: blue;*/
+  width: 32%;
+  float: right;
+  /*height: 300px;*/
+  margin-bottom: 10px;
+}
+
+.largeleft {
+  background-color: yellow;
+  width: 65%;
+  float: left;
+  /*height: 300px;*/
+  margin-bottom: 10px;
+}
+
+.largeleft:hover {
+  background-color: green;
+  color: yellow;
+}
+
+.largeright {
+  background-color: #ffa700;
+  width: 65%;
+  float: right;
+  /*height: 300px;*/
+  margin-bottom: 10px;
+}
+
+.largeright:hover {
+  background-color: blue;
+  color: red;
+}
+
+.imgsmall {
+  width: 100%;
+}
+
+.imglargeright {
+  float: right;
+  width: 50%;
+  margin: 10px;
+}
+
+
+p {
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+section {
+  clear: both;
+/*  margin-bottom: 100px;
+  margin-top: 100px;*/
+}
+
+body {
+  background-color: #7fffd4;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+#container1 {
+    display: flex;
+    align-content:center;
+    flex-direction: row;
+}
+
+#container2, #container3,
+#container4 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#spaceghost {
+  background-color: green;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+  height: 300px;
+}
+#spacetext {
+  display: flex;
+  align-items: center;
+}
